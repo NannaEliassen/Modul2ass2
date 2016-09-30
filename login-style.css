@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Raleway', Helvetica, "Helvetica Neue", sans-serif;
+  font-size: medium;
+  background-color: #C8C1C1;
+}
+h1 {
+  font-weight: lighter;
+  font-size: 26px;
+  font-family: Raleway;
+  text-align: center;
+}
+p {
+  font-size: 15px;
+  font-family: Raleway;
+  text-align: left;
+  letter-spacing: 0.5px;
+  margin-left: 5%;
+}
+/*opret bruger boks*/
+
+.login-formular{
+	margin-top: 8%;
+	background-color: white;
+	width: 30%;
+	height: 50%;
+	text-align: center;
+	padding: 5%;
+	margin-left: 32%;
+	
+	}
+
+.form-control {
+  width: 97%;
+  padding: 5%;
+  border: thin solid;
+  letter-spacing: 1px;
+  color: grey;
+}
+
+.form-group {
+	margin-top: 1%;
+}
+
+a{
+	text-decoration: underline;
+	font-size: 15px;
+  	font-family: Raleway;
+  	text-align: left;
+	color: black;
+}
+ .submit{
+	
+	border: thin solid #D5CDCD;
+	background-color:#C8C1C1;
+	color: white; 
+	width: 97%; 
+	height: 10%;  
+	cursor: pointer;
+	
+ }
+ 
